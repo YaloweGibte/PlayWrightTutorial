@@ -17,7 +17,7 @@ class Vehicle:
     def a(self):
         Vehicle.all.append(self)
 
-vehicle_1 = Vehicle("Skoda", "Private", 150000)
+vehicle_1 = Vehicle("Skoda", "Octavia", 150000)
 vehicle_2 = Vehicle("Ford", "Truck", 450000)
 vehicle_3 = Vehicle("Ford", "Truck", 450000)
 
